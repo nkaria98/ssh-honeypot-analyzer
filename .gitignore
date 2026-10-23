@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Real logs may contain real IPs and usernames: never commit them
+*.log
+!sample_data/auth.log
